@@ -34,6 +34,25 @@ def run_tests():
     doctest.testmod(verbose=True, optionflags=doctest.NORMALIZE_WHITESPACE)
 
 
+
 def powers(n):
 
 
+    if n // 9 == 9:
+        print("Square")
+
+    elif n // 2 == 2:
+        print("Square")
+
+    elif n // 9 == 9:
+        print("Square")
+
+    elif n // 3 // 3 == 3:
+        print("Cube")
+
+    elif n // 2 // 2 == 2:
+        print("Cube")
+
+    else:
+        print("Not a power")
+        
